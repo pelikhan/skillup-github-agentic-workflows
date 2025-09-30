@@ -253,10 +253,10 @@ This repository contains several agentic workflows that demonstrate GitHub Agent
 
 | Workflow | Title | Role |
 |----------|-------|------|
-| [accessibility-review](.github/workflows/accessibility-review.md) | Accessibility Review for Slides | Reviews presentation slides for accessibility issues when README.md is updated on main branch |
-| [daily-log-scanner](.github/workflows/daily-log-scanner.md) | Daily Agentic Workflow Log Scanner | Analyzes recent agentic workflow runs daily to identify issues like missing tools, execution failures, and configuration errors |
-| [issue-triage](.github/workflows/issue-triage.md) | Issue Triage | Automatically summarizes new or reopened issues using 3 emojis and posts a comment |
-| [package-security-check](.github/workflows/package-security-check.md) | Package Security Deep Research | Conducts comprehensive security analysis of package-lock.json changes in pull requests, researching dependencies for vulnerabilities |
-| [pseudo](.github/workflows/pseudo.md) | Pseudo Language Converter | Transforms issue content into pseudo-code style language when triggered by /pseudo command |
-| [slidify](.github/workflows/slidify.md) | Slidify - Generate Slide from Issue | Transforms issue content into a new Marp slide and adds it to README.md when triggered by /slidify command |
+| [accessibility-review](.github/workflows/accessibility-review.md) | Accessibility Review for Slides | Reviews presentation slides for accessibility issues and creates an issue with findings when README.md is updated |
+| [daily-log-scanner](.github/workflows/daily-log-scanner.md) | Daily Agentic Workflow Log Scanner | Runs daily to analyze recent agentic workflow logs, identifying missing tools, execution failures, and configuration errors |
+| [issue-triage](.github/workflows/issue-triage.md) | Issue Triage | Automatically summarizes new or reopened issues using 3 emojis and posts the summary as a comment |
+| [package-security-check](.github/workflows/package-security-check.md) | Package Security Deep Research | Conducts comprehensive security analysis of package-lock.json changes in PRs, researching dependencies for vulnerabilities |
+| [pseudo](.github/workflows/pseudo.md) | Pseudo Language Converter | Transforms issue content into pseudo-code style algorithmic language when triggered by /pseudo command |
+| [slidify](.github/workflows/slidify.md) | Slidify - Generate Slide from Issue | Converts issue content into a new Marp presentation slide and adds it to README.md via /slidify command |
 | [update-workflow-docs](.github/workflows/update-workflow-docs.md) | Agentic Workflow Documentation Updater | Automatically updates README.md with a summary table of all agentic workflows in the repository |
