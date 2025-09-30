@@ -301,15 +301,16 @@ copilot
 
 ---
 
-| Workflow | Title |
-|----------|-------|
-| [accessibility-review](.github/workflows/accessibility-review.md) | Accessibility Review for Slides 
-| [daily-log-scanner](.github/workflows/daily-log-scanner.md) | Daily Agentic Workflow Log Scanner |
-| [issue-triage](.github/workflows/issue-triage.md) | Issue Triage |
-| [package-security-check](.github/workflows/package-security-check.md) | Package Security Deep Research |
-| [pseudo](.github/workflows/pseudo.md) | Pseudo Language Converter |
-| [slidify](.github/workflows/slidify.md) | Slidify - Generate Slide from Issue |
-| [update-workflow-docs](.github/workflows/update-workflow-docs.md) | Agentic Workflow Documentation Updater | 
+| Workflow | Title | Role |
+|----------|-------|------|
+| [accessibility-review](.github/workflows/accessibility-review.md) | Accessibility Review for Slides | Reviews presentation slides for accessibility issues including color contrast, readability, and WCAG compliance |
+| [daily-activity-report](.github/workflows/daily-activity-report.md) | Daily Repository Activity Report Generator | Generates comprehensive daily activity reports with metrics on commits, issues, PRs, and workflow runs |
+| [daily-log-scanner](.github/workflows/daily-log-scanner.md) | Daily Agentic Workflow Log Scanner | Analyzes recent GitHub Agentic Workflow runs to identify missing tools, errors, and configuration issues |
+| [issue-triage](.github/workflows/issue-triage.md) | Issue Triage | Summarizes new issues in exactly 3 emojis and responds with a comment |
+| [package-security-check](.github/workflows/package-security-check.md) | Package Security Deep Research | Conducts comprehensive security analysis of package-lock.json changes including vulnerability and supply chain research |
+| [pseudo](.github/workflows/pseudo.md) | Pseudo Language Converter | Transforms issue content into pseudo-code style algorithmic language for entertainment |
+| [slidify](.github/workflows/slidify.md) | Slidify - Generate Slide from Issue | Converts issue content into professional Marp presentation slides and adds them to README.md |
+| [update-workflow-docs](.github/workflows/update-workflow-docs.md) | Agentic Workflow Documentation Updater | Automatically updates the README.md with a current summary table of all agentic workflows | 
 
 ---
 
